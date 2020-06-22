@@ -16,7 +16,9 @@
 Make sure you have the following commands setup on ur API project </br>
 (1) vagrant init ubuntu/bionic64: Create a configuration file Vagrantfile with server support (ubuntu/bionic64)  </br>
 (2) vagrant up: Download the base image specified inside VagrantFile configuration then start a virtual machine setup with ubuntu server.  </br>
+(3) vagrant ssh: Connect to vagrant server
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/vagrantSSH.png)
+
 
 ### [Profile_API](#)
 [(Return back to Contents)](#Contents)
