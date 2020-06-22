@@ -1,6 +1,6 @@
 # Python DevOps
 
-### This repo will contain any references to deploy API's with Python either through Docker containers, AWS (Lambda, Gateway, EC2, Serverless) or any additional tools. 
+### This repo will contain any references to deploy API's with Python either through Vagrantfile, Docker containers, AWS (Lambda, Gateway, EC2, Serverless) or any additional tools. 
 
 
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/Python_DevOps.PNG)
