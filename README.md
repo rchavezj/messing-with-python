@@ -1,4 +1,4 @@
-# Pyhon DevOps
+# Python DevOps
 
 ### This repo will contain any references to deploy API's with Python either through Docker containers or AWS. 
 
