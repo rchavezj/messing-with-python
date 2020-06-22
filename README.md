@@ -35,9 +35,9 @@ Make sure you enter the vagrant environment with the following commands </br>
 (1) django-admin.py startproject profiles_project . </br>
 the script (django-admin.py) is passed in and the argument </br>
 "startproject" is a flag to start a new project (profiles_project). </br>
-the "." is an optional argument to place the folder on the root of invoked command.  
-(2) python manage.py startapp [name]: Start a new django api project using manage.py
-(3) Inside of settings.py, repo inside of django api project from step (2), add in the following apps 
+the "." is an optional argument to place the folder on the root of invoked command.  </br>
+(2) python manage.py startapp [name]: Start a new django api project using manage.py</br>
+(3) Inside of settings.py, repo inside of django api project from step (2), add in the following apps </br>
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/settings.png)
 
 ### [Vagrant Tips](#)
