@@ -21,7 +21,8 @@ Make sure you have the following commands setup on ur API project </br>
 (4) exit: If you ever wish to exit the development server and back to you're local machine. 
 
 ### [Vagrant Tips](#)
-(1) Make sure you enter the vagrant environment with the following commands
+Make sure you enter the vagrant environment with the following commands
+(1) Development repo is under the folder /vagrant
 
 
 ### [Profile_API](#)
