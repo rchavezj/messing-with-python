@@ -1,10 +1,8 @@
 # Python DevOps
 
-### This repo will contain any references to deploy API's with Python (Django/Flask) using the following: Vagrant, Docker containers, or AWS (Lambda, Gateway, EC2, Serverless). 
-
+### This repo will contain any references to deploy API's with Python (Django/Flask) using the following: Vagrant, Docker containers, or AWS (Lambda, Gateway, Serverless). 
 
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/Python_DevOps.PNG)
-
 
 # Contents: 
 |                        |                                          |
@@ -41,6 +39,11 @@ the "." is an optional argument to place the folder on the root of invoked comma
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/settings.png)
 (4) python manage.py runserver 0.0.0.0:8000: On the browser type in 'http://127.0.0.1:8000/' to view ur code on the server. Django place holder (img of a rocket) is set to default. 
 
+### Django Migration setup
+(1) python manage.py makemigrations [name: profiles_api] : This will create an init file (0001_initial.py)
+(2) python manage.py migrate
+
 ### [Profile_API](#)
 [(Return back to Contents)](#Contents)
 <img src="#" width="700">
+
