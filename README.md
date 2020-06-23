@@ -43,6 +43,10 @@ the "." is an optional argument to place the folder on the root of invoked comma
 (1) python manage.py makemigrations [name: profiles_api] : This will create an init file (0001_initial.py)
 (2) python manage.py migrate
 
+### Django Create superuser
+(1) python manage.py createsuperuser
+(2) 
+
 ### [Profile_API](#)
 [(Return back to Contents)](#Contents)
 <img src="#" width="700">
