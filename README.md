@@ -21,6 +21,7 @@ Make sure you have the following commands setup on ur API project </br>
 
 ### [Vagrant Tips](#)
 
+(0) Make sure you change directories to the path '/vagrant' inside of the virtua ubuntu.
 (1) Development repo is under the folder /vagrant using the command 'cd /vagrant' </br>
 (2) python -m venv ~/env --> Create python environment onto server. </br>
 (3) source ~/env/bin/activate --> Activate virtual env </br>
