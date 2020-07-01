@@ -50,8 +50,7 @@ the "." is an optional argument to place the folder on the root of invoked comma
 
 ### Django Create superuser
 
-(1) python manage.py createsuperuser -->
-(2)
+(1) python manage.py createsuperuser 
 
 ### [Profile_API](#)
 
