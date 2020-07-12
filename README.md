@@ -42,6 +42,7 @@ the "." is an optional argument to place the folder on the root of invoked comma
 (3) Inside of settings.py, repo inside of django api project from step (2), add in the following apps </br>
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/settings.png)
 (4) python manage.py runserver 0.0.0.0:8000 --> On the browser type in 'http://127.0.0.1:8000/' to view ur code on the server. Django place holder (img of a rocket) is set to default.
+(4a) python manage.py runserver --noreload 0.0.0.0:8000 --> If running the local host ends up in an infinite loop. 
 
 ### Django Migration setup
 
