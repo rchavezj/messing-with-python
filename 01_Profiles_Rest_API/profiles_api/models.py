@@ -6,7 +6,7 @@ from django.conf import settings
 
 
 class UserProfileManager(BaseUserManager):
-    """Manager for user profiles"""
+    """Manager for user profiles."""
     
     def create_user(self, email, name, password=None):
         """Create a new user profile"""
