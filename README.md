@@ -57,7 +57,13 @@ pip install -r requirements.txt </br>
 ```
 ### Django Admin Setip
 
-(1) django-admin.py startproject profiles_project . --> the script (django-admin.py) </br>
+(1) the script (django-admin.py) is passed in and the argument "startproject" is
+a flag to start a new project (profiles_project). the "." is an optional argument 
+to place the folder on the root of invoked command.
+```console 
+django-admin.py startproject profiles_project .  
+```
+
 is passed in and the argument "startproject" is </br>
 a flag to start a new project (profiles_project). </br>
 the "." is an optional argument to place the folder on the root of invoked command. </br>
@@ -77,13 +83,16 @@ python manage.py runserver --noreload 0.0.0.0:8000
 ```
 
 ### Django Migration setup
-
-(1) python manage.py makemigrations [name: profiles_api] --> This will create an init file (0001_initial.py)
-(2) python manage.py migrate
+These two can create an init file (0001_initial.py) 
+```console
+python manage.py migrate
+python manage.py makemigrations [name: profiles_api] 
+```
 
 ### Django Create superuser
-
-(1) python manage.py createsuperuser 
+```console
+python manage.py createsuperuser 
+```
 
 ### [Profile_API](#)
 
