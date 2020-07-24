@@ -3,7 +3,8 @@
 ### This repo will contain any references to deploy APIs with Python (FastAPI/Django/Flask) using the following: Vagrant, Docker containers, or AWS (Lambda, Gateway, Serverless, torchserve via PyTorch).
 
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/Python_DevOps.PNG)
-![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/02_Hello_World_FastAPI/images/SwaggerUI.png)
+![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/02_Hello_World_FastAPI/Images/SwaggerUI.png)
+![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/02_Hello_World_FastAPI/Images/torchServe.gif)
 
 # Contents:
 
@@ -14,9 +15,21 @@
 ### [Vagrant Setup](#)
 
 Make sure you have the following commands setup on ur API project </br>
-(1) vagrant init ubuntu/bionic64 --> Create a configuration file Vagrantfile with server support (ubuntu/bionic64). Somtimes you will need to edit the Vagrantfile in order to setup step (2) properly. </br>
-(2) vagrant up --> Download the base image specified inside VagrantFile configuration then start a virtual machine setup with ubuntu server. </br>
-(3) vagrant ssh --> Connect to vagrant server as a 'guest' which is why we use the ssh flag on our command. Ubuntu commands are not the same as windows or mac. </br>
+(1) 
+```console 
+vagrant init ubuntu/bionic64
+``` 
+Create a configuration file Vagrantfile with server support (ubuntu/bionic64). Somtimes you will need to edit the Vagrantfile in order to setup step (2) properly. </br>
+(2) 
+```console
+vagrant up 
+``` 
+Download the base image specified inside VagrantFile configuration then start a virtual machine setup with ubuntu server. </br>
+(3) 
+```console 
+vagrant ssh
+```
+Connect to vagrant server as a 'guest' which is why we use the ssh flag on our command. Ubuntu commands are not the same as windows or mac. </br>
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/vagrantSSH.png) </br>
 (4) exit --> If you ever wish to exit the development server and back to you're local machine.
 
@@ -24,15 +37,28 @@ Make sure you have the following commands setup on ur API project </br>
 
 (0) Make sure you change directories to the path '/vagrant' inside of the virtua ubuntu. </br>
 (1) Development repo is under the folder /vagrant using the command 'cd /vagrant' </br>
-(2) python -m venv ~/env --> Create python environment onto server. </br>
-(3) source ~/env/bin/activate --> Activate virtual env </br>
-(4) deactivate --> Deactivate virtual environment.
+(2) 
+```console 
+python -m venv ~/env
+```
+Create python environment onto server. </br>
+
+(3) 
+```console 
+source ~/env/bin/activate
+```
+Activate virtual env </br>
+(4) 
+```console 
+deactivate
+```
+Deactivate virtual environment.
 </br>
 
 ### Dependency (install inside vagrant env activated)
-
+```console 
 pip install -r requirements.txt </br>
-
+```
 ### Django Admin Setip
 
 (1) django-admin.py startproject profiles_project . --> the script (django-admin.py) </br>
