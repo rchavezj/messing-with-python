@@ -4,6 +4,7 @@
 
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/Python_DevOps.PNG)
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/torchServe.gif)
+![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/microservices.png)
 
 # Contents:
 
@@ -36,23 +37,19 @@ vagrant ssh
 
 (0) Make sure you change directories to the path '/vagrant' inside of the virtua ubuntu. </br>
 (1) Development repo is under the folder /vagrant using the command 'cd /vagrant' </br>
-(2) 
+(2) Create python environment onto server.
 ```console 
 python -m venv ~/env
 ```
-Create python environment onto server. </br>
 
-(3) 
+(3) Activate virtual env  
 ```console 
 source ~/env/bin/activate
 ```
-Activate virtual env </br>
-(4) 
+(4) Deactivate virtual environment. 
 ```console 
 deactivate
 ```
-Deactivate virtual environment.
-</br>
 
 ### Dependency (install inside vagrant env activated)
 ```console 
@@ -64,11 +61,20 @@ pip install -r requirements.txt </br>
 is passed in and the argument "startproject" is </br>
 a flag to start a new project (profiles_project). </br>
 the "." is an optional argument to place the folder on the root of invoked command. </br>
-(2) python manage.py startapp [name] --> Start a new django api project using manage.py</br>
+(2) Start a new django api project using manage.py 
+```console 
+python manage.py startapp [name]
+```
 (3) Inside of settings.py, repo inside of django api project from step (2), add in the following apps </br>
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/settings.png)
-(4) python manage.py runserver 0.0.0.0:8000 --> On the browser type in 'http://127.0.0.1:8000/' to view ur code on the server. Django place holder (img of a rocket) is set to default.
-(4a) python manage.py runserver --noreload 0.0.0.0:8000 --> If running the local host ends up in an infinite loop. 
+(4) On the browser type in 'http://127.0.0.1:8000/' to view ur code on the server. Django place holder (img of a rocket) is set to default.
+```console 
+python manage.py runserver 0.0.0.0:8000
+```
+(4a)  If running the local host ends up in an infinite loop. 
+```console 
+python manage.py runserver --noreload 0.0.0.0:8000 
+```
 
 ### Django Migration setup
 
