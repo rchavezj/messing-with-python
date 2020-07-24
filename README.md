@@ -4,7 +4,6 @@
 
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/Python_DevOps.PNG)
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/torchServe.gif)
-![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/02_Hello_World_FastAPI/images/SwaggerUI.png)
 
 # Contents:
 
