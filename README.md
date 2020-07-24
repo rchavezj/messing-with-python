@@ -10,7 +10,8 @@
 
 |                                         |                                |
 | --------------------------------------- | ------------------------------ |
-| 1. [Setup Environment Commands](#Setup) | 2. [Profile API](#Profile_API) |
+| 1. [Setup Environment Commands](#Setup) | 2. [Profile API (Django)](#Profile_API) |
+| 3. [Hello world (FastAPI)](#Setup) | 4. [PyTorch Image model (Flask)](#) |
 
 ### [Vagrant Setup](#)
 
