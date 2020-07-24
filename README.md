@@ -3,6 +3,7 @@
 ### This repo will contain any references to deploy APIs with Python (FastAPI/Django/Flask) using the following: Vagrant, Docker containers, or AWS (Lambda, Gateway, Serverless, torchserve via PyTorch).
 
 ![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/Images/Python_DevOps.PNG)
+![alt text](https://github.com/rchavezj/Pyhon_DevOps/blob/master/02_Hello_World_FastAPI/images/SwaggerUI.png)
 
 # Contents:
 
