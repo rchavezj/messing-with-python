@@ -93,8 +93,3 @@ python manage.py makemigrations [name: profiles_api]
 ```console
 python manage.py createsuperuser 
 ```
-
-### [Profile_API](#)
-
-[(Return back to Contents)](#Contents)
-<img src="#" width="700">
